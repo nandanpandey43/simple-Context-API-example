@@ -17,7 +17,7 @@ const {value, setValue} = React.useContext(AppContext)
     </h4>
 
     <button onClick={()=>{
-      setValue("changed from about..")
+      setValue("context value changed from about page...")
     }} >
       click here to change
     </button>
