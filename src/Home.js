@@ -17,7 +17,7 @@ export default function Home() {
     </h4>
 
     <button onClick={()=>{
-      setValue("changed from home...")
+      setValue("context value changed from home page...")
     }} >
     click here to change
     </button>
